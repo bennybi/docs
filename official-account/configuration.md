@@ -7,7 +7,7 @@ use EasyWeChat\Factory;
 
 $config = [
     'app_id' => 'wx3cf0f39249eb0exx',
-    'secret' => 'f1c242f4f28f735d4687abb469072axx',
+    'key' => 'f1c242f4f28f735d4687abb469072axx',
 
     // 指定 API 调用返回结果的类型：array(default)/collection/object/raw/自定义类名
     'response_type' => 'array',
@@ -30,7 +30,7 @@ return [
      * 账号基本信息，请从微信公众平台/开放平台获取
      */
     'app_id'  => 'your-app-id',         // AppID
-    'secret'  => 'your-app-secret',     // AppSecret
+    'key'  => 'your-app-secret',     // AppSecret
     'token'   => 'your-token',          // Token
     'aes_key' => '',                    // EncodingAESKey，兼容与安全模式下请一定要填写！！！
 
